@@ -1,0 +1,829 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+  border: 1px solid #ececec;
+}
+
+.blue {
+  color: #2196f3;
+}
+.studio {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+
+  color: #000000;
+}
+.agency {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.cv {
+  text-decoration: none;
+  position: absolute;
+  width: 80px;
+  height: 18px;
+  left: 552px;
+  top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.contact {
+  text-decoration: none;
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.mail {
+  text-decoration: none;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+ul {
+  list-style-type: none;
+}
+.telephone {
+  text-decoration: none;
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.all {
+  text-decoration: none;
+  position: absolute;
+  width: 77px;
+  height: 26px;
+  left: 532px;
+  top: 180px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  position: absolute;
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+
+  background: #2196f3;
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+a {
+  color: #000000;
+  transition: background-color 1s;
+  cursor: pointer;
+}
+a:hover {
+  color: #2196f3;
+  background-color: #ececec;
+}
+.page {
+  text-decoration: none;
+  position: absolute;
+  width: 49px;
+  height: 26px;
+  left: 661px;
+  top: 180px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  position: absolute;
+  width: 93px;
+  height: 38px;
+  left: 639px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.aplication {
+  text-decoration: none;
+  position: absolute;
+  width: 70px;
+  height: 26px;
+  left: 762px;
+  top: 180px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  position: absolute;
+  width: 114px;
+  height: 38px;
+  left: 740px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.design {
+  text-decoration: none;
+  position: absolute;
+  width: 47px;
+  height: 26px;
+  left: 884px;
+  top: 180px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  position: absolute;
+  width: 91px;
+  height: 38px;
+  left: 862px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.product {
+  text-decoration: none;
+  position: absolute;
+  width: 77px;
+  height: 26px;
+  left: 983px;
+  top: 180px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  position: absolute;
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.crack {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 262px;
+}
+.orlean {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 262px;
+}
+.restaurant {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 262px;
+}
+.headphones {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 696px;
+}
+.box {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 696px;
+}
+.tablet {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 696px;
+}
+.book {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1130px;
+}
+.sort {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 600px;
+  top: 1484px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.lab-tag {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1130px;
+}
+
+.business {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1130px;
+}
+.d {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  border: 1px solid #ececec;
+
+  background: #2f303a;
+}
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  border: 1px solid #ececec;
+}
+.web {
+  color: #2196f3;
+}
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.83;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.studioweb {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #2196f3;
+}
+img {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.adres {
+  position: absolute;
+  width: 400px;
+  height: 21px;
+  left: 215px;
+  top: 111px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.example {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 141px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 171px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.color {
+  color: #ffffff;
+}
+
+.milk {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.technocrack {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 200px;
+  top: 576px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.site {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 200px;
+  top: 616px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.new {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 600px;
+  top: 576px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.sell {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 600px;
+  top: 616px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.food {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1000px;
+  top: 576px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.function {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1000px;
+  top: 616px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.prime {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 200px;
+  top: 1010px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.trade {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 200px;
+  top: 1050px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.boxes {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 600px;
+  top: 1010px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.use {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 600px;
+  top: 1050px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.no-borders {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1000px;
+  top: 1010px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.game {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1000px;
+  top: 1484px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.site-www {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1000px;
+  top: 1050px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.limited {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 200px;
+  top: 1444px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.house {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 200px;
+  top: 1484px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.project {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 600px;
+  top: 1444px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.buy {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 600px;
+  top: 1484px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.grow {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 1000px;
+  top: 1444px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0.5;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.buy {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 1000px;
+  top: 1484px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
