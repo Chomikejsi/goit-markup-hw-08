@@ -8,7 +8,6 @@ body {
   color: #2196f3;
 }
 .studio {
-  position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -31,7 +30,6 @@ body {
   color: #000000;
 }
 .agency {
-  position: absolute;
   width: 53px;
   height: 16px;
   left: 453px;
@@ -49,7 +47,7 @@ body {
 .cv {
   background-color: #ffffff;
   text-decoration: none;
-  position: absolute;
+
   width: 80px;
   height: 18px;
   left: 552px;
@@ -66,7 +64,7 @@ body {
 
 .contact {
   text-decoration: none;
-  position: absolute;
+
   width: 58px;
   height: 16px;
   left: 656px;
@@ -82,7 +80,7 @@ body {
 
 .mail {
   text-decoration: none;
-  position: absolute;
+
   width: 135px;
   height: 16px;
   left: 1078px;
@@ -101,7 +99,7 @@ ul {
 }
 .telephone {
   text-decoration: none;
-  position: absolute;
+
   width: 110px;
   height: 16px;
   left: 1263px;
@@ -118,7 +116,7 @@ ul {
 
 .all {
   text-decoration: none;
-  position: absolute;
+
   width: 77px;
   height: 26px;
   left: 532px;
@@ -134,7 +132,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
-  position: absolute;
+
   width: 121px;
   height: 38px;
   left: 510px;
@@ -153,7 +151,7 @@ a:hover {
 }
 .page {
   text-decoration: none;
-  position: absolute;
+
   width: 49px;
   height: 26px;
   left: 661px;
@@ -168,7 +166,7 @@ a:hover {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  position: absolute;
+
   width: 93px;
   height: 38px;
   left: 639px;
@@ -179,7 +177,7 @@ a:hover {
 }
 .aplication {
   text-decoration: none;
-  position: absolute;
+
   width: 70px;
   height: 26px;
   left: 762px;
@@ -195,7 +193,7 @@ a:hover {
   letter-spacing: 0.03em;
 
   color: #212121;
-  position: absolute;
+
   width: 114px;
   height: 38px;
   left: 740px;
@@ -206,7 +204,7 @@ a:hover {
 }
 .design {
   text-decoration: none;
-  position: absolute;
+
   width: 47px;
   height: 26px;
   left: 884px;
@@ -222,7 +220,7 @@ a:hover {
   letter-spacing: 0.03em;
 
   color: #212121;
-  position: absolute;
+
   width: 91px;
   height: 38px;
   left: 862px;
@@ -233,7 +231,7 @@ a:hover {
 }
 .product {
   text-decoration: none;
-  position: absolute;
+
   width: 77px;
   height: 26px;
   left: 983px;
@@ -249,7 +247,7 @@ a:hover {
   letter-spacing: 0.03em;
 
   color: #212121;
-  position: absolute;
+
   width: 121px;
   height: 38px;
   left: 961px;
@@ -260,56 +258,48 @@ a:hover {
 }
 
 .crack {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 262px;
 }
 .orlean {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 262px;
 }
 .restaurant {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 1015px;
   top: 262px;
 }
 .headphones {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 696px;
 }
 .box {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
   top: 696px;
 }
 .tablet {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 1015px;
   top: 696px;
 }
 .book {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 215px;
   top: 1130px;
 }
 .sort {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 600px;
@@ -326,7 +316,6 @@ a:hover {
   color: #757575;
 }
 .lab-tag {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 615px;
@@ -334,14 +323,12 @@ a:hover {
 }
 
 .business {
-  position: absolute;
   width: 370px;
   height: 294px;
   left: 1015px;
   top: 1130px;
 }
 .d {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 239px;
@@ -358,7 +345,6 @@ a:hover {
   color: #212121;
 }
 footer {
-  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -368,7 +354,6 @@ footer {
   background: #2f303a;
 }
 header {
-  position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
@@ -382,7 +367,6 @@ header {
 }
 
 .logo {
-  position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -401,7 +385,6 @@ header {
 }
 
 .studioweb {
-  position: absolute;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -422,7 +405,6 @@ img {
   border: 1px solid #eeeeee;
 }
 .adres {
-  position: absolute;
   width: 400px;
   height: 21px;
   left: 215px;
@@ -439,7 +421,6 @@ img {
   color: #ffffff;
 }
 .example {
-  position: absolute;
   width: 231px;
   height: 21px;
   left: 215px;
@@ -457,7 +438,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 .tel {
-  position: absolute;
   width: 231px;
   height: 21px;
   left: 215px;
@@ -479,7 +459,6 @@ img {
 }
 
 .milk {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 239px;
@@ -496,7 +475,6 @@ img {
   color: #212121;
 }
 .technocrack {
-  position: absolute;
   width: 300px;
   height: 30px;
   left: 200px;
@@ -513,7 +491,6 @@ img {
   color: #212121;
 }
 .site {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 200px;
@@ -530,7 +507,6 @@ img {
   color: #757575;
 }
 .new {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 600px;
@@ -547,7 +523,6 @@ img {
   color: #212121;
 }
 .sell {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 600px;
@@ -564,7 +539,6 @@ img {
   color: #757575;
 }
 .food {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 1000px;
@@ -581,7 +555,6 @@ img {
   color: #212121;
 }
 .function {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 1000px;
@@ -598,7 +571,6 @@ img {
   color: #757575;
 }
 .prime {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 200px;
@@ -615,7 +587,6 @@ img {
   color: #212121;
 }
 .trade {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 200px;
@@ -632,7 +603,6 @@ img {
   color: #757575;
 }
 .boxes {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 600px;
@@ -649,7 +619,6 @@ img {
   color: #212121;
 }
 .use {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 600px;
@@ -666,7 +635,6 @@ img {
   color: #757575;
 }
 .no-borders {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 1000px;
@@ -684,7 +652,6 @@ img {
 }
 
 .game {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 1000px;
@@ -701,7 +668,6 @@ img {
   color: #757575;
 }
 .www {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 1000px;
@@ -718,7 +684,6 @@ img {
   color: #757575;
 }
 .limited {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 200px;
@@ -735,7 +700,6 @@ img {
   color: #212121;
 }
 .house {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 200px;
@@ -752,7 +716,6 @@ img {
   color: #757575;
 }
 .project {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 600px;
@@ -769,7 +732,6 @@ img {
   color: #212121;
 }
 .buy {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 600px;
@@ -786,7 +748,6 @@ img {
   color: #757575;
 }
 .grow {
-  position: absolute;
   width: 322px;
   height: 36px;
   left: 1000px;
@@ -803,7 +764,6 @@ img {
   color: #212121;
 }
 .buy {
-  position: absolute;
   width: 322px;
   height: 30px;
   left: 1000px;
