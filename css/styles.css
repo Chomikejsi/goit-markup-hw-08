@@ -8,7 +8,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.one {
+.logo {
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -16,7 +16,7 @@ body {
   line-height: 0.83;
   letter-spacing: 0.03em;
 }
-.two {
+.portfolio {
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -24,7 +24,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.three {
+.prime {
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +32,7 @@ body {
   line-height: 2;
   color: #212121;
 }
-.four {
+.title {
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
@@ -41,7 +41,7 @@ body {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.five {
+.description {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -50,7 +50,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.six {
+.bottom {
   text-decoration: none;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +64,7 @@ body {
 .number {
   color: #ffffff;
 }
-.seven {
+.designation {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -76,7 +76,7 @@ body {
 .blue {
   color: #2196f3;
 }
-.eight {
+.filters {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
