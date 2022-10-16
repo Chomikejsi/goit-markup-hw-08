@@ -3,6 +3,10 @@ body {
   color: #212121;
   border: 1px solid #ececec;
 }
+h1 h2 h3 h4 h5 h6 p ul li {
+  margin: 0;
+  padding: 0;
+}
 
 .font-raleway {
   font-family: "Raleway", sans-serif;
@@ -15,6 +19,7 @@ body {
   font-size: 26px;
   line-height: 0.83;
   letter-spacing: 0.03em;
+  margin-top: 28px;
 }
 .portfolio {
   text-decoration: none;
@@ -23,6 +28,8 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .prime {
   text-decoration: none;
@@ -57,7 +64,10 @@ body {
   font-size: 14px;
   line-height: 0.58;
   letter-spacing: 0.03em;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
+
 .down-sign {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -72,19 +82,33 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+ul li {
+  display: inline-block;
+  margin-top: 14px;
+  list-style-type: none;
 }
 .blue {
   color: #2196f3;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .filters {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
-
+  margin-bottom: 50px;
   text-align: center;
   letter-spacing: 0.03em;
-
+  padding: 6px 22px;
+  margin: 4px 4px;
   color: #212121;
   background-color: #f5f4fa;
 }
@@ -94,11 +118,6 @@ body {
 .random {
   color: #757575;
 }
-
-ul {
-  list-style-type: none;
-}
-
 a {
   cursor: pointer;
 }
@@ -112,7 +131,9 @@ footer {
 }
 header {
   background: #ffffff;
-  border: 1px solid #ececec;
+  border-bottom: solid 1px #ececec;
+  height: 80px;
+  justify-content: center;
 }
 
 img {
@@ -133,4 +154,36 @@ button {
 button:hover {
   color: #212121;
   background-color: #2196f3;
+}
+
+.container {
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.all-designation {
+  border: 1px solid #eeeeee;
+  border-top: 0;
+  padding: 20px 24px;
+}
+.images {
+  gap: 30px 30px;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
