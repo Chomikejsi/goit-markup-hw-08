@@ -21,6 +21,12 @@ h1 h2 h3 h4 h5 h6 p ul li {
   letter-spacing: 0.03em;
   margin-top: 28px;
 }
+.margin-left {
+  margin-left: 10px;
+}
+address {
+  background: #2f303a;
+}
 .portfolio {
   text-decoration: none;
   font-style: normal;
@@ -30,6 +36,7 @@ h1 h2 h3 h4 h5 h6 p ul li {
   letter-spacing: 0.03em;
   padding-top: 30px;
   padding-bottom: 10px;
+  background: #2f303a;
 }
 .prime {
   text-decoration: none;
@@ -74,6 +81,7 @@ h1 h2 h3 h4 h5 h6 p ul li {
 .number {
   color: #ffffff;
 }
+
 .designation {
   text-decoration: none;
   font-style: normal;
@@ -84,6 +92,9 @@ h1 h2 h3 h4 h5 h6 p ul li {
   color: #212121;
   margin-left: 50px;
   margin-top: 32px;
+}
+.left {
+  margin-left: 364px;
 }
 ul li {
   display: inline-block;
@@ -99,6 +110,7 @@ ul li {
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .filters {
   font-style: normal;
   font-weight: 500;
@@ -125,13 +137,8 @@ a:hover {
   color: #2196f3;
 }
 
-footer {
-  border: 1px solid #ececec;
-  background: #2f303a;
-}
 header {
   background: #ffffff;
-  border-bottom: solid 1px #ececec;
   height: 80px;
   justify-content: center;
 }
@@ -139,6 +146,9 @@ header {
 img {
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+.borders {
+  border-bottom: solid 1px #ececec;
 }
 
 .color {
