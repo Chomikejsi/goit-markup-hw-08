@@ -24,9 +24,14 @@ h1 h2 h3 h4 h5 h6 p ul li {
 .margin-left {
   margin-left: 10px;
 }
+footer {
+  background: #2f303a;
+}
+
 address {
   background: #2f303a;
 }
+
 .portfolio {
   text-decoration: none;
   font-style: normal;
@@ -175,7 +180,7 @@ button:hover {
   max-width: 1200px;
 
   width: 100%;
-  padding: 0 15px;
+  padding: 0px;
   margin: 0 auto;
 }
 
@@ -188,6 +193,7 @@ button:hover {
   border: 1px solid #eeeeee;
   border-top: 0;
   padding: 20px 24px;
+  margin: 0 auto;
 }
 .images {
   gap: 30px 30px;
@@ -196,4 +202,6 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding: 0px;
+  margin: 0px;
 }
