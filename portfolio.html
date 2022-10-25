@@ -37,25 +37,29 @@
           >
           <a class="designation" href="#">Kontakty</a>
         </nav>
-        <a class="designation random left" href="info@devstudio.com"
-          >info@devstudio.com</a
-        >
-        <a class="designation random" href="tel:+48111111111"
-          >+48 111 111 111</a
-        > 
+        <a class="designation random left" href="mailtoinfo@devstudio.com"
+            ><svg class="icon-bike" width="16" height="12">
+              <use   href="./images/icons.svg.svg#icon-envelope"></use>
+            </svg> info@devstudio.com</a>
+            <a class="designation random" href="tel:+48111111111">
+              <svg  class="icon-bike" width="14" height="12">
+                <use  href="./images/icons.svg.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a
+            >
       </header>
 </div>
       <main class="container section">
         <div class="buttons">
-          <button class="filters" href="Wszystkie">Wszystkie</button>
-          <button class="filters" href="Strony">Strony</button>
-          <button class="filters" href="Aplikacje">Aplikacje</button>
-          <button class="filters" href="Dizajn">Dizajn</button>
-          <button class="filters" href="Marketing">Marketing</button>
+          <button class="filters btn-hover second-nav-bar box" href="Wszystkie">Wszystkie</button>
+          <button class="filters btn-hover second-nav-bar box" href="Strony">Strony</button>
+          <button class="filters btn-hover second-nav-bar box" href="Aplikacje">Aplikacje</button>
+          <button class="filters btn-hover second-nav-bar box" href="Dizajn">Dizajn</button>
+          <button class="filters btn-hover second-nav-bar box" href="Marketing">Marketing</button>
         </div>
 
         <ul class="images">
-          <li>
+          <li class="box" >
             <img
               src="./images/technocrack.jpg"
               width="370"
@@ -67,7 +71,7 @@
               <p class="description">Strona internetowa</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/neworlean.jpg"
               alt="koszykarze"
@@ -79,7 +83,7 @@
               <p class="description">Dizajn</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/restaurant.jpg"
               alt="logo restauracji"
@@ -91,7 +95,7 @@
               <p class="description">Aplikacja</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/prime.jpg"
               alt="słuchawki"
@@ -103,7 +107,7 @@
               <p class="description">Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/boxes.jpg"
               alt="kartony"
@@ -115,7 +119,7 @@
               <p class="description">Aplikacja</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/tablet.jpg"
               alt="monitor komputerowy"
@@ -127,7 +131,7 @@
               <p class="description">Strona internetowa</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/book.jpg"
               alt="książka"
@@ -139,7 +143,7 @@
               <p class="description">Dizajn</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/lab.jpg"
               alt="etykieta"
@@ -151,7 +155,7 @@
               <p class="description">Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="box">
             <img
               src="./images/business.jpg"
               alt="laptop "
@@ -166,10 +170,12 @@
         </ul>
       </main>
       <footer>
-        <div class="container">
+        <div class="container-footer">
+          <ul>
+            <li>
           <a href="/index.html" class="font-raleway portfolio blue"
             ><span class="color">Web</span>Studio</a
-          >
+          ></li>
           <address>
             <p class="bottom number">Warszawa, Aleje Jerozolimskie 21</p>
             <p>
@@ -181,9 +187,34 @@
               <a class="bottom down-sign" href="tel:+48111111111"
                 >+48 111 111 111</a
               >
-            </p>
+            </p></ul>
           </address>
-        
+          <div class="footer-socials">
+            <h5 class="footer-second-section-title">DOŁĄCZ DO NAS</h5>
+            <ul class="footer-section-icons">
+              <li>
+                <svg class="footer-section-icon" width="20" height="20">
+                  <use href="./images/icons.svg.svg#icon-instagram-2"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="footer-section-icon" width="20" height="20">
+                  <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="footer-section-icon" width="20" height="20">
+                  <use href="./images/icons.svg.svg#icon-facebook-1"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="footer-section-icon" width="20" height="20">
+                  <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     
   </body>
