@@ -135,7 +135,6 @@ ul li {
   padding: 6px 22px;
   margin: 4px 4px;
   color: #212121;
-  background-color: #f5f4fa;
 }
 .black {
   color: #000000;
@@ -214,6 +213,19 @@ button:hover {
   margin: 0 auto;
   padding: 0px;
   margin: 0px;
+  top: 262px;
+  background: #ffffff;
+}
+.imagesv2 {
+  gap: 30px 30px;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0px;
+  margin: 0px;
+  top: 262px;
 }
 /*  INDEX STRONA GŁÓWNA  */
 .main {
@@ -247,6 +259,7 @@ button:hover {
   padding: 10px 42px;
   cursor: pointer;
   line-height: 1.875em;
+  border-radius: 5px;
 }
 .main-title {
   font-style: normal;
@@ -298,9 +311,7 @@ h2 {
   margin-bottom: 50px;
   text-align: center;
 }
-.border {
-  border: 1px solid #eeeeee;
-}
+
 h5 {
   font-family: "Roboto";
   font-style: normal;
@@ -334,6 +345,11 @@ h5 {
 }
 .wall {
   background: #ffffff;
+  margin: 0 auto;
+  border: none;
+}
+.border {
+  border: none;
 }
 
 .icons-section {
@@ -390,9 +406,10 @@ h5 {
 }
 .icon-bike:hover,
 .icon-bike:focus {
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
-    brightness(104%) contrast(97%);
+  filter: invert(50%) sepia(40%) saturate(4076%) hue-rotate(184deg)
+    brightness(100%) contrast(91%);
 }
+
 .padding-top {
   padding-top: 90px;
 }
@@ -481,6 +498,7 @@ h5 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  color: #ffffff;
 }
 .second-nav-bar {
   display: flex;
@@ -489,22 +507,26 @@ h5 {
   margin-right: 8px;
   width: 121px;
   height: 38px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+
   cursor: pointer;
 }
 .shadows {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 .box {
   cursor: pointer;
-  border: 1px solid #ccc;
+
   border-radius: 10px;
   transition: box-shadow 0.3s;
+  background: #ffffff;
 }
 .box:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.boxv2 {
+  cursor: pointer;
+
+  transition: box-shadow 0.3s;
+  background: #f5f4fa;
 }
