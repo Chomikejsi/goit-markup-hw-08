@@ -21,13 +21,14 @@
   </head>
 
   <body>
+    <div class="borders">
     <header class="container">
       <nav>
         <a class="font-raleway logo black" href="WebStudio"
           ><span class="blue">Web</span>Studio
         </a>
         <a class="designation" href="Agencja">Agencja</a>
-        <a class="designation" href="./portfolio.html">Portfolio</a>
+        <a class="designation nav-link active" href="./portfolio.html">Portfolio</a>
         <a class="designation">Kontakt</a>
       </nav>
       <ul>
@@ -48,13 +49,13 @@
           >
         </li>
       </ul>
-    </header>
+    </header></div>
     <main>
       <div class="colors ">
         <div class="main container">
           <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
 
-          <button class="main-button" type="button">Zamów usługe</button>
+          <button data-modal-open class="main-button" type="button ">Zamów usługe</button>
         </div>
       </div>
       <div class="container">
@@ -113,29 +114,33 @@
       <section class="text-panel  container">
         <h2>Czym się zajmujemy</h2>
         <ul class="images">
-          <li>
+          <li class="index-overlay">
             <img
               src="./images/photo.jpg"
               alt="Osoba pisze kod na tablecie"
               width="370"
               height="294"
             />
+            <div class="text-overlay">Aplikacje komputerowe</div>
           </li>
-          <li>
+          <li class="index-overlay">
             <img
               src="./images/laptop.jpg"
               alt="Osoba trzyma telefon w ręce"
               width="370"
               height="294"
             />
+            <div class="text-overlay">Aplikacje mobilne</div>
           </li>
-          <li>
+          
+          <li class="index-overlay">
             <img
               src="./images/graphic-tablet.jpg"
               alt="Grafik z tabletem graficznym"
               width="370"
               height="294"
             />
+            <div class="text-overlay">Rozwiązania graficzne</div>
           </li>
         </ul>
       </section>
@@ -372,6 +377,16 @@
         </div>
       </div>
     </footer>
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" class="modal-button" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/icons.svg.svg#icon-Vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
 
