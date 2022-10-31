@@ -144,9 +144,15 @@ ul li {
 }
 a {
   cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 a:hover {
   color: #2196f3;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header {
@@ -170,12 +176,22 @@ img {
 button {
   cursor: pointer;
   transition: background-color 0.2;
+  transition: background-color 250ms;
+  color: 250ms;
+  border-bottom: 250ms;
+  box-shadow: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   border: none;
 }
 button:hover {
   color: #212121;
   background-color: #2196f3;
+  transition: background-color 250ms;
+  color: 250ms;
+  border-bottom: 250ms;
+  box-shadow: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -375,6 +391,8 @@ h5 {
   background: var(--brand-color);
   --color1: #ffffff;
   cursor: pointer;
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-section-icons {
   display: flex;
@@ -398,16 +416,31 @@ h5 {
   border: 1px solid #2196f3;
   border-radius: 4px;
   cursor: pointer;
+  transition: color 250ms;
+  transition: border 250ms;
+  transition: background-color 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon .icon:hover,
 .icon .icon:focus {
   background: #2196f3;
   cursor: pointer;
+  transition: background-color 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-bike:hover,
 .icon-bike:focus {
   filter: invert(50%) sepia(40%) saturate(4076%) hue-rotate(184deg)
     brightness(100%) contrast(91%);
+  transition: filter 250ms;
+  transition: background-color 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .padding-top {
@@ -433,11 +466,15 @@ h5 {
   border-radius: 50%;
   margin-right: 10px;
   margin-top: 20px;
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-section-icons li:hover {
   background: #2196f3;
   cursor: pointer;
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-section {
@@ -456,7 +493,7 @@ h5 {
   align-items: flex-start;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
+  padding-left: 320px;
   font-style: normal;
 }
 
@@ -491,6 +528,8 @@ h5 {
 .btn-hover {
   border: none;
   background: #ffffff;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-hover:hover {
@@ -499,6 +538,9 @@ h5 {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: #ffffff;
+  transition: background-color 250ms;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .second-nav-bar {
   display: flex;
@@ -513,6 +555,8 @@ h5 {
 .shadows {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box {
   cursor: pointer;
@@ -520,13 +564,132 @@ h5 {
   border-radius: 10px;
   transition: box-shadow 0.3s;
   background: #ffffff;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .boxv2 {
   cursor: pointer;
 
-  transition: box-shadow 0.3s;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   background: #f5f4fa;
+}
+
+/* JS-------------------------- */
+.modal-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modal-window {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 528px;
+  width: 100%;
+  height: 581px;
+  background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: initial;
+  margin: auto;
+}
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transform: scale(0.9);
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  opacity: 1;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.index-overlay {
+  position: relative;
+}
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 25px 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  width: 368px;
+  height: 70px;
+  margin: 3px 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+.nav-link.active::after {
+  position: absolute;
+  left: 664px;
+  bottom: 912px;
+  content: "";
+  width: 3%;
+  height: 4px;
+  background: var(--brand-color);
+  border-radius: 2px;
+  transform: translateY(26px);
+}
+
+.box-1 {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  transform: translateY(100%);
+  will-change: transform;
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1, 5;
+  padding-left: 25px;
+  padding-right: 45px;
+  padding-top: 49px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.overlay > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1:hover .overlay {
+  transform: translate(0, 0);
 }
