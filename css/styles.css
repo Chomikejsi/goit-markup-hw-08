@@ -648,16 +648,17 @@ h5 {
   align-items: center;
   background: rgba(47, 48, 58, 0.8);
 }
-.nav-link.active::after {
-  position: absolute;
-  left: 664px;
-  bottom: 912px;
+.nav-active {
+  position: relative;
+}
+.nav-active::after {
   content: "";
-  width: 3%;
+  position: absolute;
+  left: 0%;
+  width: 100%;
   height: 4px;
   background: var(--brand-color);
-  border-radius: 2px;
-  transform: translateY(26px);
+  top: 30px;
 }
 
 .box-1 {
