@@ -123,6 +123,26 @@ ul li {
   justify-content: center;
   margin-bottom: 50px;
 }
+.buttonnv2 {
+  cursor: pointer;
+  transition: background-color 0.2;
+  transition: background-color 250ms;
+  color: 250ms;
+  border-bottom: 250ms;
+  box-shadow: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  border: none;
+}
+.buttonnv2:hover {
+  color: #212121;
+
+  transition: background-color 250ms;
+  color: 250ms;
+  border-bottom: 250ms;
+  box-shadow: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .filters {
   font-style: normal;
@@ -173,7 +193,7 @@ img {
   color: #ffffff;
 }
 
-button {
+.buttonn {
   cursor: pointer;
   transition: background-color 0.2;
   transition: background-color 250ms;
@@ -184,7 +204,7 @@ button {
 
   border: none;
 }
-button:hover {
+.buttonn:hover {
   color: #212121;
   background-color: #2196f3;
   transition: background-color 250ms;
@@ -657,7 +677,7 @@ h5 {
   width: 100%;
   height: 4px;
   background: var(--brand-color);
-  top: 30px;
+  top: 32px;
 }
 
 .box-1 {
@@ -692,16 +712,4 @@ h5 {
 
 .box-1:hover .overlay {
   transform: translate(0, 0);
-}
-.nav-active2 {
-  position: relative;
-}
-.nav-active2::after {
-  content: "";
-  position: absolute;
-  left: 0%;
-  width: 100%;
-  height: 4px;
-  background: var(--brand-color);
-  top: 32px;
 }
