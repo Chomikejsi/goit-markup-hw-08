@@ -349,7 +349,7 @@
             >
           </p></ul>
         </address>
-        <div class="footer-socials">
+        <div class="footer-socials paddingmarginv2">
           <h5 class="footer-second-section-title">DOŁĄCZ DO NAS</h5>
           <ul class="footer-section-icons">
             <li>
@@ -374,15 +374,93 @@
             </li>
           </ul>
         </div>
-      </div>
+      
+      <div class="footer-socials paddingmargin" > 
+        <h3  class="tittle1-footer">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+        <div class="email-submit">
+            <fieldset class="footer-input-mail">
+            <input type="email" placeholder="E-mail">
+            </fieldset>
+            <button class="footer-button" href="#" type="submit">Zapisz Się<svg width="24" height="24"><use href="./images/icons.svg.svg#icon-send-icon"></use></svg></button>
+            </div>
+            
+    
+        </div></div>
     </footer>
     <div class="modal is-hidden" data-modal>
       <div class="modal-window">
         <button type="button" class="modal-button buttonnv2" data-modal-close>
           <svg width="11" height="11">
-            <use href="./images/icons.svg.svg#icon-Vector"></use>
+            <use href="./images/icons.svg.svg#icon-Vector1"></use>
           </svg>
         </button>
+        <h2 class="header-form">Zostaw swoje dane w formualarzu ponizej</h2>
+
+            <form class="my-form">
+
+                <fieldset class="fieldset">
+                    <label for="username">Imie</label>
+                    <svg width="12" height="12">
+                        <use href="./images/icons.svg.svg#icon-user-icon" ></use>
+                    </svg>    
+                <input class="input" type="text" id="username"/>
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <label for="phone-number">Telefon</label>
+                <svg width="13" height="13">
+                    <use href="./images/icons.svg.svg#icon-phone-icon" ></use>
+                </svg>    
+            <input class="input" type="tel" id="phone-number"/>
+        </fieldset>
+
+        <fieldset class="fieldset">
+            <label for="email-adress">Email</label>
+            <svg width="15" height="12">
+                <use href="./images/icons.svg.svg#icon-email-icon" ></use>
+            </svg>    
+        <input class="input" type="email" name="email" id="email-adress"/>
+    </fieldset>
+
+
+    <fieldset class="fieldset">
+        <label for="comment">Komnetarz</label>   
+    <textarea class="input-comment" id="comment" name="comment" placeholder="Wprowadź tekst" rows="5"></textarea>
+</fieldset>
+
+
+
+
+<label class="contanier-checkbox">
+  <input type="checkbox" class="hide-checkbox" />
+  Oświadczam, iż akceptuję <a href="" target="_blank" class="contanier-checkbox-link">Regulamin</a> i <a
+    href="" target="_blank" class="contanier-checkbox-link">Politykę
+    prywatności</a>
+</label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="form-button-position">
+<button class="form-button" href="#" type="submit">Wyślij</button>
+</div>
+</form>
+
+
+            
       </div>
     </div>
     <script src="./modal.js"></script>
