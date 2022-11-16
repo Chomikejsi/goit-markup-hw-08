@@ -433,6 +433,7 @@ h5 {
 .customers-section-icons li:hover,
 .customers-section-icons li:focus {
   --color1: #2196f3;
+  --color2: #2196f3;
   border: 1px solid #2196f3;
   border-radius: 4px;
   cursor: pointer;
@@ -678,6 +679,7 @@ h5 {
   height: 4px;
   background: var(--brand-color);
   top: 30px;
+  border-radius: 4px;
 }
 
 .box-1 {
