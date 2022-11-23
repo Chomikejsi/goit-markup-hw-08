@@ -1,0 +1,66 @@
+.subscription {
+  margin-left: 70px;
+}
+.subscription__tittle2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.subscription__submit {
+  display: flex;
+  gap: 10px;
+}
+.subscription__mail {
+  display: flex;
+  align-items: center;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+.subscription__mail input {
+  width: 100%;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.subscription__button {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-color: var(--brand-color);
+  background: var(--brand-color);
+  border-radius: 4px;
+  color: var(#ffffff);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  fill: var(--brand-color);
+  color: #ffffff;
+}
+.subscription {
+  margin-top: 55px;
+}

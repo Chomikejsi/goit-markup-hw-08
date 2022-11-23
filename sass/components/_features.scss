@@ -1,0 +1,29 @@
+.features {
+  display: inline-flex;
+}
+
+.features__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0 auto;
+}
+.features__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.features__item {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}

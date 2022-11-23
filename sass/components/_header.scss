@@ -1,0 +1,30 @@
+.header__link {
+  margin-left: 364px;
+}
+.header__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+.header__link:hover,
+.header__link:focus {
+  filter: invert(50%) sepia(40%) saturate(4076%) hue-rotate(184deg)
+    brightness(100%) contrast(91%);
+  transition: filter 250ms;
+  transition: background-color 250ms;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header__link {
+  color: #757575;
+}
+.header {
+  border-bottom: solid 1px #ececec;
+}
