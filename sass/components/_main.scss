@@ -17,53 +17,54 @@
   background-position: center;
   max-width: 1600px;
   margin: 0 auto;
-}
-.main__button {
-  background-color: #2196f3;
-  border: 0;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.06em;
-  font-family: inherit;
-  padding: 10px 42px;
-  cursor: pointer;
-  line-height: 1.875em;
-  border-radius: 5px;
-}
-.main__title {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  font-family: "Roboto";
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 
-  color: #ffffff;
-  width: 696px;
-}
-.main__button {
-  cursor: pointer;
-  transition: background-color 0.2;
-  transition: background-color 250ms;
-  color: 250ms;
-  border-bottom: 250ms;
-  box-shadow: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__button {
+    background-color: #2196f3;
+    border: 0;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    padding: 10px 42px;
+    cursor: pointer;
+    line-height: 1.875em;
+    border-radius: 5px;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    font-family: "Roboto";
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
-  border: none;
-}
-.main__button:hover {
-  color: #212121;
+    color: #ffffff;
+    width: 696px;
+  }
+  &__button {
+    cursor: pointer;
+    transition: background-color 0.2;
+    transition: background-color 250ms;
+    color: 250ms;
+    border-bottom: 250ms;
+    box-shadow: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  transition: background-color 250ms;
-  color: 250ms;
-  border-bottom: 250ms;
-  box-shadow: 250ms;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+  }
+  &__button:hover {
+    color: #212121;
+
+    transition: background-color 250ms;
+    color: 250ms;
+    border-bottom: 250ms;
+    box-shadow: 250ms;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }

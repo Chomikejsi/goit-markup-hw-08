@@ -3,72 +3,74 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
-}
-.filters__btn {
-  cursor: pointer;
-  transition: background-color 0.2;
-  transition: background-color 250ms;
-  color: 250ms;
-  border-bottom: 250ms;
-  box-shadow: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 94px;
 
-  border: none;
-}
-.filters__btn:hover {
-  color: #212121;
-  background-color: #2196f3;
-  transition: background-color 250ms;
-  color: 250ms;
-  border-bottom: 250ms;
-  box-shadow: 250ms;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filters__btn {
-  border: none;
-  background: #ffffff;
-  transition: box-shadow 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &__btn {
+    cursor: pointer;
+    transition: background-color 0.2;
+    transition: background-color 250ms;
+    color: 250ms;
+    border-bottom: 250ms;
+    box-shadow: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-.filters__btn:hover {
-  background: var(--brand-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  color: #ffffff;
-  transition: background-color 250ms;
-  transition: box-shadow 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.filters__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 8px;
-  width: 121px;
-  height: 38px;
+    border: none;
+  }
+  &__btn:hover {
+    color: #212121;
+    background-color: #2196f3;
+    transition: background-color 250ms;
+    color: 250ms;
+    border-bottom: 250ms;
+    box-shadow: 250ms;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__btn {
+    border: none;
+    background: #ffffff;
+    transition: box-shadow 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-  cursor: pointer;
-}
-.filters__btn {
-  cursor: pointer;
+  &__btn:hover {
+    background: var(--brand-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #ffffff;
+    transition: background-color 250ms;
+    transition: box-shadow 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    width: 121px;
+    height: 38px;
 
-  transition: box-shadow 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background: #f5f4fa;
-}
-.filters__btn {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.14;
-  margin-bottom: 50px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding: 6px 22px;
-  margin: 4px 4px;
-  color: #212121;
+    cursor: pointer;
+  }
+  &__btn {
+    cursor: pointer;
+
+    transition: box-shadow 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background: #f5f4fa;
+  }
+  &__btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
+    margin: 4px 4px;
+    color: #212121;
+  }
 }

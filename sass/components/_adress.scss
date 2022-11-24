@@ -1,17 +1,19 @@
-.adress__link {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 0.58;
-  letter-spacing: 0.03em;
-  padding-top: 5px;
-  padding-bottom: 3px;
-}
+.adress {
+  &__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
 
-.adress__link {
-  color: rgba(255, 255, 255, 0.6);
-}
-.adress__link--color {
-  color: #ffffff;
+  &__link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__link--color {
+    color: #ffffff;
+  }
 }

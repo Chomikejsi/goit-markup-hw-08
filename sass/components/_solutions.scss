@@ -3,38 +3,39 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-}
-.solutions__list {
-  gap: 30px 30px;
-  justify-content: center;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 0px;
-  margin: 0px;
-  top: 262px;
-  background: #ffffff;
-}
-.solutions__overlay {
-  position: relative;
-}
-.solutions__subtitle {
-  position: absolute;
-  bottom: 0;
-  padding: 25px 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #fff;
-  width: 368px;
-  height: 70px;
-  margin: 3px 1px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(47, 48, 58, 0.8);
+  &__list {
+    gap: 30px 30px;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0px;
+    margin: 0px;
+    top: 262px;
+    background: #ffffff;
+  }
+  &__overlay {
+    position: relative;
+  }
+  &__subtitle {
+    position: absolute;
+    bottom: 0;
+    padding: 25px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    width: 368px;
+    height: 70px;
+    margin: 3px 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(47, 48, 58, 0.8);
+  }
 }
