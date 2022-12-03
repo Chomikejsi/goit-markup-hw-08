@@ -4,8 +4,29 @@
   flex-direction: column;
   flex-wrap: wrap;
   background: #f5f4fa;
+  border: none;
+  @include for-phone-to-767 {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @include for-tablet-landscape-up {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+
+  @include for-desktop-up {
+    flex-basis: calc((100% - 90px) / 4);
+  }
 
   &__list {
+    @include for-tablet-landscape-up {
+      @include displayflex();
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 0 auto;
+      border: none;
+    }
     gap: 30px 30px;
     justify-content: center;
     list-style: none;
@@ -41,5 +62,10 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: box-shadow 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+  }
+  &__subtittle {
+    @include fontset($fs: 28px, $lh: 1.18, $align: center);
+    color: getColor("title-text");
   }
 }

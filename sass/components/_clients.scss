@@ -6,8 +6,17 @@
 
   &__title {
     padding-top: 90px;
+    @include fontset($fs: 28px, $lh: 1.18, $align: center);
+    color: getColor("title-text");
   }
   &__list {
+    @include for-tablet-portrait-up {
+      margin: 0 auto;
+      margin-left: -30px;
+    }
+
+    flex-wrap: wrap;
+    gap: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,5 +45,22 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__item {
+    width: 170px;
+    height: 92px;
+  }
+
+  &__item {
+    height: 92px;
+    flex-basis: calc((100% - 30px) / 2);
+
+    @include for-tablet-landscape-up {
+      flex-basis: calc((100% - 60px) / 3);
+    }
+
+    @include for-desktop-up {
+      flex-basis: calc((100% - 150px) / 6);
+    }
   }
 }

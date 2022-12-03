@@ -1,5 +1,7 @@
 @import "./utils/visually-hidden";
 @import "./utils/vars";
+@import "./utils/breakpoints";
+@import "./utils/mixins";
 @import "./base/common";
 @import "./components/adress";
 @import "./components/backdrop";
@@ -14,10 +16,11 @@
 @import "./components/icon";
 @import "./components/images";
 @import "./components/logo";
-@import "./components/main";
+@import "./components/hero";
 @import "./components/modal";
 @import "./components/nav";
 @import "./components/social";
 @import "./components/solutions";
 @import "./components/subscription";
 @import "./components/team";
+@import "./components/mobile-menu";

@@ -1,10 +1,12 @@
 .social {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0 32px;
   margin-left: 20px;
   margin-bottom: 16px;
   padding-left: 16px;
+  gap: 10px;
+
   & li:hover,
   & li:focus {
     background: var(--brand-color);

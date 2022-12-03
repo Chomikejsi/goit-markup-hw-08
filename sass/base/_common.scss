@@ -3,9 +3,11 @@
   --brand-color-2: #2f303a;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-  border: 1px solid #ececec;
+  width: 100%;
+  background-color: getColor("primary-bcg");
+  color: getColor("primary-text");
+  font-family: "roboto", sans-serif;
+  @include fontset($fw: 400, $fs: 14px, $lh: 1.17, $ls: 0.03em, $align: start);
 }
 h1 h2 h3 h4 h5 h6 p ul li {
   margin: 0;

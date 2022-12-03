@@ -1,16 +1,41 @@
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 60px 0;
+
+  @include for-desktop-up {
+    padding: 94px 0;
+  }
+
+  &--without-padding-top {
+    padding-top: 0;
+  }
+
+  &__title {
+    @include fontset($fs: 28px, $lh: 1.18, $align: center);
+    color: getColor("title-text");
+    margin: 0 auto 30px;
+
+    @include for-desktop-up {
+      @include fontset($fs: 36px, $align: center);
+      margin: 0 auto 50px;
+    }
+  }
 }
 
 .container {
-  display: flex;
-
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  max-width: 1200px;
-
   width: 100%;
-  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include for-tablet-portrait-up {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  @include for-tablet-landscape-up {
+    width: 768px;
+  }
+
+  @include for-desktop-up {
+    width: 1200px;
+  }
 }

@@ -1,0 +1,32 @@
+.contacts {
+  display: none;
+
+  @include for-tablet-landscape-up {
+    @include displayflex($align-items: start);
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  @include for-desktop-up {
+    @include displayflex();
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  &__icon {
+    fill: currentColor;
+    align-items: center;
+  }
+
+  &__link {
+    @include displayflex();
+    gap: 10px;
+    @include fontset($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em);
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: getColor("accent");
+    }
+  }
+}

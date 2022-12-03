@@ -7,38 +7,34 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+  @include for-desktop-up {
+    max-width: 528px;
+    padding: 40px;
+  }
+  @include for-tablet-portrait-up {
+    max-width: 477px;
+    padding: 40px;
+    width: calc(100% - 5px);
+  }
 
-  &__button {
+  &__btn {
     position: absolute;
+    @include displayflex();
     top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
-    cursor: pointer;
-    border-radius: 50%;
-    background: #fff;
+    background-color: getColor("primary-bcg");
     border: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  &__button {
+    border-radius: 50%;
+    transition: fill $timing-function;
     cursor: pointer;
-    transition: background-color 0.2;
-    transition: background-color 250ms;
-    color: 250ms;
-    border-bottom: 250ms;
-    box-shadow: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+    margin: 0;
 
-    border: none;
-  }
-  &__button:hover {
-    color: #212121;
-
-    transition: background-color 250ms;
-    color: 250ms;
-    border-bottom: 250ms;
-    box-shadow: 250ms;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: getColor("accent");
+    }
   }
 }

@@ -2,6 +2,29 @@
   border-bottom: solid 1px #ececec;
 }
 .header {
+  &__container {
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    width: 100%;
+    padding: 0px;
+
+    @include for-tablet-portrait-up {
+      width: 480px;
+      margin: 0 auto;
+    }
+
+    @include for-tablet-landscape-up {
+      width: 768px;
+    }
+
+    @include for-desktop-up {
+      width: 1200px;
+    }
+  }
   &__link {
     margin-left: 364px;
   }
@@ -28,5 +51,20 @@
   }
   &__link {
     color: #757575;
+  }
+  &__list {
+    display: none;
+
+    @include for-tablet-landscape-up {
+      @include displayflex($align-items: start);
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    @include for-desktop-up {
+      @include displayflex();
+      flex-direction: row;
+      gap: 50px;
+    }
   }
 }

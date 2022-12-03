@@ -1,8 +1,6 @@
 .subscription {
-  margin-top: 55px;
-}
-.subscription {
   margin-left: 70px;
+  margin-top: 55px;
 
   &__tittle2 {
     color: #ffffff;
@@ -63,5 +61,57 @@
     cursor: pointer;
     fill: var(--brand-color);
     color: #ffffff;
+  }
+}
+
+.subscription-form {
+  @include for-desktop-up {
+    @include displayflex();
+    gap: 12px;
+  }
+
+  &__input {
+    width: 100%;
+    color: getColor("white-text");
+    background-color: getColor("dark-bcg");
+    padding: 15px;
+    margin: 0 auto 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: $box-shadow;
+    border-radius: 4px;
+
+    @include for-tablet-landscape-up {
+      width: 450px;
+    }
+    @include for-desktop-up {
+      width: 358px;
+      margin: 0 auto;
+    }
+
+    &::placeholder {
+      @include fontset($fw: 400, $lh: 1.25);
+      color: getColor("subscription-placeholder");
+    }
+
+    &:focus {
+      color: getColor("white-text");
+      border: 1px solid getColor("accent");
+      outline: none;
+    }
+  }
+
+  &__btn {
+    @include displayflex();
+    gap: 10px;
+    @include btn($padding: 0);
+
+    &:hover,
+    &:focus {
+      background-color: getColor("btn-hover-bcg");
+    }
+  }
+
+  &__icon {
+    fill: currentColor;
   }
 }
