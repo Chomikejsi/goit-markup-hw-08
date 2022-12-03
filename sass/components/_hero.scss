@@ -8,19 +8,21 @@
   background-size: cover;
 
   @include for-phone-to-767 {
-    background-image: getColor("gradient"), url(../images/hero-img@1x.jpg);
+    background-image: getColor("gradient"),
+      url(https://raw.githubusercontent.com/Chomikejsi/goit-markup-hw-08/main/images/hero-img%401x.jpg);
   }
 
   @media screen and (max-width: 767px),
     screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and(min-resolution: 2dppx) {
-    background-image: getColor("gradient"), url(../images/hero-img@2x.jpg);
+    background-image: getColor("gradient"),
+      url(https://raw.githubusercontent.com/Chomikejsi/goit-markup-hw-08/main/images/hero-img%402x.jpg);
   }
 
   @include for-tablet-landscape-up {
     background-image: getColor("gradient"),
-      url(../images/hero-tablet-img@1x.jpg);
+      url(https://raw.githubusercontent.com/Chomikejsi/goit-markup-hw-08/main/images/hero-tablet-img%401x.jpg);
   }
 
   @media screen and (min-width: 768px),
@@ -28,12 +30,12 @@
     screen and (min-resolution: 192dpi),
     screen and(min-resolution: 2dppx) {
     background-image: getColor("gradient"),
-      url(../images/hero-tablet-img@2x.jpg);
+      url(https://raw.githubusercontent.com/Chomikejsi/goit-markup-hw-08/main/images/hero-tablet-img%402x.jpg);
   }
 
   @include for-desktop-up {
     background-image: getColor("gradient"),
-      url(../images/hero-desktop-img@1x.jpg);
+      url(https://raw.githubusercontent.com/Chomikejsi/goit-markup-hw-08/main/images/hero-desktop-img%401x.jpg);
     height: 600px;
   }
 
@@ -42,7 +44,7 @@
     screen and (min-resolution: 192dpi),
     screen and(min-resolution: 2dppx) {
     background-image: getColor("gradient"),
-      url(../images/hero-desktop-img@2x.jpg);
+      url(https://raw.githubusercontent.com/Chomikejsi/goit-markup-hw-08/main/images/hero-desktop-img%402x.jpg);
   }
 
   &__container {
