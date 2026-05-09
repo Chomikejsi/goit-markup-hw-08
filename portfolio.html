@@ -23,7 +23,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.css?v=3" />
-    <link rel="stylesheet" href="./css/polish.css?v=3" />
+    <link rel="stylesheet" href="./css/polish.css?v=8" />
     <title>WebStudio | Portfolio</title>
   </head>
   <body>
@@ -32,6 +32,19 @@
         <a class="logo" href="./index.html">
           <span class="logo--primary">Web</span>Studio
         </a>
+
+        <button
+          class="nav__btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Otworz menu mobilne"
+        >
+          <span class="nav__btn-lines" aria-hidden="true"></span>
+          <svg width="40" height="40" aria-hidden="true">
+            <use href="./images/icons.svg.svg#icon-menu"></use>
+          </svg>
+        </button>
 
         <nav class="nav" aria-label="Glowna nawigacja">
           <ul class="nav__list">
@@ -231,5 +244,29 @@
         </div>
       </div>
     </footer>
+
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <button class="mobile-menu__close-btn js-close-menu" type="button" aria-label="Zamknij menu mobilne">
+        <svg width="40" height="40" aria-hidden="true">
+          <use href="./images/icons.svg.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-menu__nav" aria-label="Menu mobilne">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item">
+            <a href="./index.html" class="mobile-menu__link">Agencja</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="./portfolio.html" class="mobile-menu__link mobile-menu__link--current">Portfolio</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#contact" class="mobile-menu__link">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="./JS/mobile-menu.js"></script>
   </body>
 </html>
