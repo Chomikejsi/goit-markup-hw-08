@@ -669,7 +669,7 @@ footer {
   .checkbox-container {
     display: grid;
     grid-template-columns: 16px minmax(0, 1fr);
-    font-size: 11.5px;
+    font-size: 11px;
     line-height: 1.45;
   }
 }
