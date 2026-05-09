@@ -277,8 +277,8 @@
   }
 
   .hero__title {
-    width: min(100%, 340px);
-    font-size: 26px;
+    width: min(100%, 280px);
+    font-size: 24px;
     line-height: 1.26;
   }
 
