@@ -1,8 +1,8 @@
 # WebStudio - responsive agency website
 
-Live demo: https://chomikejsi.github.io/goit-markup-hw-08/
+Live demo: https://chomikejsi.github.io/webstudio-agency/
 
-WebStudio is a responsive landing page and portfolio layout created as a GoIT markup project. I cleaned up the repository so it works as a portfolio item: the pages have clearer metadata, improved semantic structure, better copy, and a direct GitHub Pages link.
+WebStudio is a responsive agency landing page prepared as a portfolio project. It focuses on clean structure, responsive layout, polished UI states, modal interactions and a production-ready GitHub Pages demo.
 
 ## What this project shows
 
